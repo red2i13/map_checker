@@ -13,6 +13,7 @@ typedef struct node
 typedef struct s_gdata
 {
 	char **map;
+	int st_pos[2];
 	int c[3];
 	int f[3];
 	char *texures[4];
@@ -36,6 +37,7 @@ typedef struct s_data {
 #include <mlx.h>
 #include "../libft/libft.h"
 /*Functions prototype*/
+int	find_longest_row(char **map, t_gdata *d);
 int read_map(int fd, t_gdata *data);
-int	find_longest_row(char **map);
+void draw_map(t_gdata *d, t_data *data);
 #endif
