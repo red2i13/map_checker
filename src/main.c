@@ -12,7 +12,7 @@ int main(int ac, char **av)
 	}
 	read_map(open(av[1], 0644), &st);
 	d.s = mlx_init();
-	d.win = mlx_new_window(d.s,  st.map_x * 32, st.map_y * 32, "Hello World!");
+	d.win = mlx_new_window(d.s,  st.map_x * 32, st.map_y * 32, "Map Checker made by rbenmakh");
 	d.img = mlx_new_image(d.s, st.map_x * 32, st.map_y * 32);
 	d.addr = mlx_get_data_addr(d.img, &d.bits_per_pixel, &d.line_length, &d.endian);
 	draw_map(&st, &d);
