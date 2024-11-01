@@ -1,4 +1,4 @@
-# map_checker
+# Map_checker for 42 projects using minilibx library
 
 This project visualizes the Breadth-First Search (BFS) algorithm on a customizable map for cub3d or solong projects using the MiniLibX graphics library. Users can create a map  representation of a maze or network in any extension format, with nodes and edges clearly displayed. The visualization updates in real-time, showcasing the exploration process as BFS traverses the structure. Key features include adjustable parameters for speed and visualization style, making it educational for understanding BFS mechanics. The program is built in C, leveraging MiniLibX for rendering, and is designed for simplicity and clarity, aiding both learners and enthusiasts in grasping algorithmic concepts.
 
