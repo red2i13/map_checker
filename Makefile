@@ -7,7 +7,7 @@ LIBFT_DIR = /libft/include
 LIB = libft
 SRC_DIR = src
 #______files______#
-FILES = main.c parse.c
+FILES = main.c parse.c check_algo.c win_func.c
 #______patterns and substitutions based on BONUS variable______#
 SOURCES := $(addprefix $(SRC_DIR)/, $(FILES))
 OBJECTS := $(SOURCES:.c=.o)
